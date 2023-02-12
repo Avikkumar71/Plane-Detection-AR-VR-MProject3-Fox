@@ -1,0 +1,9 @@
+Plane detection 
+File- project settings - android - player setting-colour gamut( remove vulcan ) - change package name - disable multi threading 
+Step 2-  windows- package manager - ar foundation- ar core plugin 
+Step 3 - right click(XR- AR session origion) - delete main camera - assign the XR camera main camera- add ar session also from same 
+Step 4- add component to ar session origin( ar plane manager) - right click(create empty object and name it ar planemain)- reset position to 0,0,0 - add component (ar plane and ar plane mesh visualizer and mesh filter and mesh renderer and line renderer)- in line render change width to 0.01- change colour - change both vertices to 4 - disable use world space - disable receive shadows- change material to default line 
+Step 5 - open assets create new folder - in material folder- right click and create new material and rename it visualizer- change rendering mode to transparent- change color A to 70-
+Step 6 - open ar planemain drop the visualizer to mesh renderer( in materials) 
+Step 7 - create another folder in assets and name it prefabs- drag ar mainplane from hierarchy to prefabs- drop ar plane from prefabs to ar session origion to plane prefab-
+Step 8- built it
